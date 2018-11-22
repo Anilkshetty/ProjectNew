@@ -1,0 +1,65 @@
+
+    body
+{
+    background-image: url(../image/back.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+  /* icon prefix focus color */
+  .input-field .prefix.active 
+  {
+    color: #00bcd4 ;
+  }
+  /* for checkbox */
+  [type="checkbox"]+label:before, [type="checkbox"]:not(.filled-in)+label:after 
+  {
+    margin-left: 8px;
+  }
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: rgb(245, 48, 169);
+  }
+       
+  .mycontainer
+  {
+      width:95%;
+      margin:auto;
+  }
+  .myfootercontainer
+  {
+     width:96%;
+     margin:auto;
+     
+  }
+
+ 
+ .myfooterhide
+ {
+     float:right;
+ }
+/* for footer */
+@media only screen and (max-width:768px)
+ {
+     *
+     {
+         background:;
+     }
+     .myfooterhide
+     {
+         display:none;
+         float:none;
+     }
+     .myfooter-logo
+     {
+         display:none;
+     }
+     .myfootercontainer
+     {
+        width:90%;
+        margin:auto;
+        text-align: center;
+     }
+ }
